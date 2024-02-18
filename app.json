@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "heartline",
-    "slug": "heartline",
-    "version": "1.0.0",
+    "name": "JustForYou",
+    "slug": "justforyou",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appstore.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/appstore.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.syshcndr.justforyou"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/appstore.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/appstore.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d6a8d94a-4cba-43d5-ad90-a5c5cfcd29e8"
+      }
     }
   }
 }
